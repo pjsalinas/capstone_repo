@@ -42,8 +42,21 @@ Overall, the real estate market in the US is a complex and dynamic industry that
 ## Project Overview
 In this project, we will be analyzing house price data from King County, Washington State using a dataset of house sold during the period of 2020-2022 to predict the sale price of houses based on various factors such as location, square footage, number of bedrooms, and bathrooms, etc. We will explore the data using statistical techniques and feature engineering to prepare it for modeling. Finally, we will build and evaluate a regression model using various algorithms and techniques to obtain the best results.
 
+##### To Run the code:
+
+#### Conda Environment
+Use the terminal or an Anaconda Prompt for the following steps:
+
+- Create the environment from the `environment.yml` file:
+  - `conda env create -f environment.yml`
+- Activate the new environment:
+  - `conda activate capstone_env`
+- Verify that the new environment was installed correctly:
+  - `conda env list`
+
 #### MyBinder
-To run the code of this repo, you can use [MyBinder](https://mybinder.org) website as in:
+To run the code of this repo, you can use [MyBinder](https://mybinder.org) as in:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pjsalinas/capstone_repo.git/HEAD) to explore the analysis.
 
 ## Data
